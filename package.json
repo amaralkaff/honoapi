@@ -1,0 +1,21 @@
+{
+  "name": "Hono-API",
+  "scripts": {
+    "db:generate": "bunx drizzle-kit generate",
+    "db:push": "bunx drizzle-kit push:pg",
+    "db:studio": "bunx drizzle-kit studio",
+    "test:db": "bun run src/db/test.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "drizzle-orm": "^0.36.1",
+    "hono": "^4.0.0",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.10",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.28.0",
+    "typescript": "^5.3.3"
+  }
+}

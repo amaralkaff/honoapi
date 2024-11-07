@@ -1,0 +1,15 @@
+# deps
+node_modules/
+
+# env
+.env
+
+# logs
+*.log
+
+# test
+test/
+
+# db
+db/
+.env
